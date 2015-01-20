@@ -247,7 +247,7 @@ public class CastvideoActivity extends ActionBarActivity {
         if (id == R.id.action_castvideo) {
             AlertDialog.Builder dialog = new AlertDialog.Builder(this);
             if (!mRecFlg) {
-                dialog.setMessage("ライブ動画配信を開始します。よろしいですか？");
+                dialog.setMessage(getResources().getString(R.string.castvideoactivity_i001));
                 dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -255,7 +255,7 @@ public class CastvideoActivity extends ActionBarActivity {
                     }
                 });
             } else {
-                dialog.setMessage("配信を終了します。よろしいですか？");
+                dialog.setMessage(getResources().getString(R.string.castvideoactivity_i002));
                 dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

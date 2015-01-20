@@ -6,5 +6,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="action_castvideo">CastVideo</string>
+    <string name="castvideoactivity_i001">ライブ動画配信を開始します。よろしいですか？</string>
+    <string name="castvideoactivity_i002">配信を終了します。よろしいですか？</string>
 
 </resources>
